@@ -17,11 +17,6 @@ class MTitik{
 		t2.setOrdinat(4.0);
 		
 		Titik t3 = new Titik(5.0, 6.0);
-		//Titik t3 = new Titik();
-		//t3.setAbsis(5.0);
-		//t3.setOrdinat(6.0);
-		
-		
 		
 		int counterTitik = t1.getCounterTitik();
 		
