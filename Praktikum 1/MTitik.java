@@ -1,5 +1,5 @@
 /**
- Nama file	:M.Titik.java
+ Nama file	:MTitik.java
  Tanggal	:22 Febbruari 2023
  Penulis	:Mochammad Arya Jadmika
  Deskripsi	:Kelas yang berisi program utama yang memanfaatkan kelas Titik
