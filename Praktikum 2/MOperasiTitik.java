@@ -13,13 +13,13 @@ class MOperasiTitik{
 		
 		System.out.println("Titik("+ t1.getAbsis()+", "+t1.getOrdinat() +")");
 		
-		Titik T2 = op.refleksiX(t1);
+		op.refleksiX(t1);
 		System.out.println("\nTitik setelah refleksi sumbu X");
-		System.out.println("Titik("+ T2.getAbsis()+", "+T2.getOrdinat() +")");
+		System.out.println("Titik("+ t1.getAbsis()+", "+t1.getOrdinat() +")");
 		
-		Titik T3 = op.refleksiY(t1);
+		op.refleksiY(t1);
 		System.out.println("\nTitik setelah refleksi sumbu Y");
-		System.out.println("Titik("+ T3.getAbsis()+", "+T3.getOrdinat() +")");
+		System.out.println("Titik("+ t1.getAbsis()+", "+t1.getOrdinat() +")");
 
 	}
 }
