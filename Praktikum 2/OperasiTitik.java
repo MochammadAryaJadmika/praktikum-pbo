@@ -21,6 +21,7 @@ class OperasiTitik1 {
 }
 
 /********TUGAS***********/
+
 class OperasiTitik {
 	private void refleksiSumbuX(Titik t1) {
 		double ordinat = t1.getOrdinat();
@@ -33,15 +34,12 @@ class OperasiTitik {
 		absis = absis * -1;
 		t1.setAbsis(absis);
 	}
-	public Titik refleksiX(Titik t1) {
-		Titik T2 = new Titik(t1.getAbsis(), t1.getOrdinat()); 
-		refleksiSumbuX(T2);
-		return T2;
+	
+	public void refleksiX(Titik t1) {
+		refleksiSumbuX(t1);
 	}
 	
-	public Titik refleksiY(Titik t1) {
-		Titik T2 = new Titik(t1.getAbsis(), t1.getOrdinat());
-		refleksiSumbuY(T2);
-		return T2;
+	public void refleksiY(Titik t1) {
+		refleksiSumbuY(t1);
 	}
 }
