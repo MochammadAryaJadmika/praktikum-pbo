@@ -1,6 +1,6 @@
 /**
  Nama file	:Poligon.java
- Tanggal	:8 Maret 2023
+ Tanggal	:15 Maret 2023
  Penulis	:Mochammad Arya Jadmika / 24060121130085
  Deskripsi	:Representasi dasar dari objek poligon (segi banyak)
 **/
