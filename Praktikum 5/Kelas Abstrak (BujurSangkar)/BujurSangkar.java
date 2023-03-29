@@ -23,4 +23,5 @@ public class BujurSangkar extends BangunDatar{
    tidak memberikan implementasi untuk metode abstrak tersebut. Oleh karena itu, 
    penting bagi kelas turunan untuk memberikan implementasi untuk semua metode 
    abstrak yang didefinisikan oleh kelas induk agar dapat digunakan secara benar.
+**/
    
