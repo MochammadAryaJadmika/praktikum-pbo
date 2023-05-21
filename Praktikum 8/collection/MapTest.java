@@ -21,8 +21,8 @@ public class MapTest {
 		
 		//iterasi untuk mengambil keseluruhan nilai dari kunci
 		for (Integer k : key) {
-            String value = map.get(k);
-            System.out.println(k+" = "+map.get(k));
-        }
+			String value = map.get(k);
+			System.out.println(k+" = "+map.get(k));
+       		}
 	}
 }
